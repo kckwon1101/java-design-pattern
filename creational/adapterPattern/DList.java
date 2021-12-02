@@ -2,11 +2,11 @@ package creational.adapterPattern;
 
 public class DList<T> {
 
-    public void insert(DNode pos, T O) {}
-    public void remove(DNode pos, T O) {}
+    public void insert(DNode pos, T o) {}
+    public void remove(DNode pos, T o) {}
 
-    public void insertHead(T O) {}
-    public void insertTail(T O) {}
+    public void insertHead(T o) {}
+    public void insertTail(T o) {}
 
     public T removeHead() {
         return null;
